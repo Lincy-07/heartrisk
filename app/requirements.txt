@@ -1,0 +1,12 @@
+# Minimal runtime for the demo app (used by Streamlit Community Cloud).
+# scikit-learn must match the version that created model/heart_risk_pipeline.joblib
+# (re-run src/06_export_model.py on your laptop and pin YOUR version here).
+streamlit
+numpy
+pandas
+scikit-learn==1.9.1
+shap
+joblib
+matplotlib
+fastapi
+pydantic

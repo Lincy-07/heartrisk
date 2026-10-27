@@ -1,0 +1,7 @@
+method,cv_auc_mean,cv_auc_std,test_auc,test_f1@0.5,time_s,evals
+Dummy (prior),0.5,0.0,0.5,0.0,0.1011,5
+Logistic Regression,0.7312,0.0302,0.7022,0.0959,0.1663,5
+RandomForest (default) = BASELINE,0.7106,0.0334,0.6319,0.0709,2.1812,5
+Grid Search,0.7268,0.0349,0.6767,0.0299,105.7645,36
+Random Search,0.7258,0.0343,0.6575,0.0714,200.3003,36
+Optuna (Bayesian/TPE),0.7264,,0.6743,0.0299,174.1044,36

@@ -1,0 +1,6 @@
+model,test_auc,ci_low,ci_high
+logreg,0.7022,0.6574,0.7511
+rf_default,0.6319,0.5806,0.6869
+rf_tuned,0.6743,0.6283,0.726
+flaml,0.6876,0.64,0.7386
+autogluon,0.6625,0.6142,0.7192

@@ -1,0 +1,22 @@
+{
+  "RandomForest (manual)": {
+    "auc_clean": 0.6319446690601719,
+    "auc_with_leak": 0.9516231630925812,
+    "leak_permutation_AUC_drop": 0.3862249463617643
+  },
+  "FLAML": {
+    "auc_clean": 0.6876314002005369,
+    "auc_with_leak": 0.966442410324417,
+    "leak_permutation_AUC_drop": 0.3404939030306951,
+    "best_estimator_with_leak": "extra_tree",
+    "budget_s": 120
+  },
+  "AutoGluon": {
+    "auc_clean": 0.67806277021272,
+    "auc_with_leak": 0.9585880475682201,
+    "leak_permutation_AUC_drop": 0.33592198466862877,
+    "best_model_with_leak": "WeightedEnsemble_L3",
+    "budget_s": 120,
+    "native_importance_rank_of_leak": 1
+  }
+}

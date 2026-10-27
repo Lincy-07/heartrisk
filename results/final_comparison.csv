@@ -1,0 +1,8 @@
+model,cv_auc,test_auc,time_s,f1@0.5
+Logistic Regression,0.7312,0.7022,0.1663,0.0959
+RF default (baseline),0.7106,0.6319,2.1812,0.0709
+RF + Grid Search,0.7268,0.6767,105.7645,0.0299
+RF + Random Search,0.7258,0.6575,200.3003,0.0714
+RF + Optuna,0.7264,0.6743,174.1044,0.0299
+FLAML (240s budget),0.7285,0.6876,240.4168,0.0441
+AutoGluon (240s budget),0.7503,0.6625,240.389,0.0986

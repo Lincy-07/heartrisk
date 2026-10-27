@@ -1,0 +1,17 @@
+,single_feature_auc
+cardiac_medication_started,0.9449
+age,0.6898
+sysBP,0.6601
+prevalentHyp,0.6158
+diaBP,0.612
+totChol,0.5682
+BMI,0.5598
+male,0.5518
+education,0.5436
+glucose,0.5409
+cigsPerDay,0.5284
+BPMeds,0.5234
+diabetes,0.5213
+heartRate,0.5149
+prevalentStroke,0.5088
+currentSmoker,0.5087

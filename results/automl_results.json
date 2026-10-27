@@ -1,0 +1,55 @@
+{
+  "FLAML": {
+    "best_estimator": "extra_tree",
+    "best_config": {
+      "n_estimators": 125,
+      "max_features": 0.6315063933561251,
+      "max_leaves": 64,
+      "criterion": "gini"
+    },
+    "best_cv_auc": 0.7284813388208808,
+    "fit_seconds": 240.4168384000077,
+    "n_improving_configs_logged": 17,
+    "roc_auc": 0.6876314002005369,
+    "pr_auc": 0.2844838750997104,
+    "f1": 0.04411764705882353,
+    "precision": 0.42857142857142855,
+    "recall": 0.023255813953488372,
+    "accuracy": 0.8466981132075472,
+    "brier": 0.12175658677140455,
+    "threshold": 0.5
+  },
+  "AutoGluon": {
+    "best_model": "WeightedEnsemble_L3",
+    "n_models": 49,
+    "fit_seconds": 240.38899960002163,
+    "features_used": [
+      "male",
+      "age",
+      "education",
+      "currentSmoker",
+      "cigsPerDay",
+      "BPMeds",
+      "prevalentStroke",
+      "prevalentHyp",
+      "diabetes",
+      "totChol",
+      "sysBP",
+      "diaBP",
+      "BMI",
+      "heartRate",
+      "glucose"
+    ],
+    "problem_type": "binary",
+    "feature_generator": "AutoMLPipelineFeatureGenerator",
+    "roc_auc": 0.6625049864691486,
+    "pr_auc": 0.2825930295677775,
+    "f1": 0.09859154929577464,
+    "precision": 0.5384615384615384,
+    "recall": 0.05426356589147287,
+    "accuracy": 0.8490566037735849,
+    "brier": 0.12473895666647583,
+    "threshold": 0.5
+  },
+  "budget_seconds": 240
+}

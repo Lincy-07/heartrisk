@@ -1,0 +1,16 @@
+,mean_|SHAP|,permutation_AUC_drop
+age,0.0453,0.0602
+sysBP,0.023,0.0162
+prevalentHyp,0.0152,0.0035
+cigsPerDay,0.0122,0.0072
+male,0.0117,0.0093
+diaBP,0.0102,0.0024
+glucose,0.0096,-0.0009
+totChol,0.0072,-0.0046
+BMI,0.0062,-0.0044
+heartRate,0.0044,-0.0009
+education,0.004,0.0008
+currentSmoker,0.0038,0.0025
+BPMeds,0.0026,-0.0009
+diabetes,0.0019,-0.0007
+prevalentStroke,0.0009,-0.0005

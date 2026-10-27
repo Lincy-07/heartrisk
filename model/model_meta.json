@@ -1,0 +1,131 @@
+{
+  "model_name": "RandomForest (Optuna-tuned) in sklearn Pipeline (median imputer + RF)",
+  "features": [
+    "male",
+    "age",
+    "education",
+    "currentSmoker",
+    "cigsPerDay",
+    "BPMeds",
+    "prevalentStroke",
+    "prevalentHyp",
+    "diabetes",
+    "totChol",
+    "sysBP",
+    "diaBP",
+    "BMI",
+    "heartRate",
+    "glucose"
+  ],
+  "threshold": 0.18,
+  "hyperparameters": {
+    "n_estimators": 424,
+    "max_depth": 8,
+    "min_samples_leaf": 3,
+    "max_features": 0.23593418422725584
+  },
+  "seed": 42,
+  "train_rows": 3392,
+  "test_rows": 848,
+  "positive_rate_train": 0.15182783018867924,
+  "cv_auc": 0.7264,
+  "test_metrics_default_threshold": {
+    "roc_auc": 0.6743107891020043,
+    "pr_auc": 0.27725722771934463,
+    "f1": 0.029850746268656716,
+    "precision": 0.4,
+    "recall": 0.015503875968992248,
+    "accuracy": 0.8466981132075472,
+    "brier": 0.12263480904139697,
+    "threshold": 0.5
+  },
+  "test_metrics_tuned_threshold": {
+    "roc_auc": 0.6743107891020043,
+    "pr_auc": 0.27725722771934463,
+    "f1": 0.328042328042328,
+    "precision": 0.24899598393574296,
+    "recall": 0.4806201550387597,
+    "accuracy": 0.7004716981132075,
+    "brier": 0.12263480904139697,
+    "threshold": 0.18
+  },
+  "feature_ranges": {
+    "male": [
+      0.0,
+      1.0
+    ],
+    "age": [
+      32.0,
+      70.0
+    ],
+    "education": [
+      1.0,
+      4.0
+    ],
+    "currentSmoker": [
+      0.0,
+      1.0
+    ],
+    "cigsPerDay": [
+      0.0,
+      70.0
+    ],
+    "BPMeds": [
+      0.0,
+      1.0
+    ],
+    "prevalentStroke": [
+      0.0,
+      1.0
+    ],
+    "prevalentHyp": [
+      0.0,
+      1.0
+    ],
+    "diabetes": [
+      0.0,
+      1.0
+    ],
+    "totChol": [
+      107.0,
+      600.0
+    ],
+    "sysBP": [
+      83.5,
+      295.0
+    ],
+    "diaBP": [
+      48.0,
+      136.0
+    ],
+    "BMI": [
+      15.54,
+      56.8
+    ],
+    "heartRate": [
+      44.0,
+      143.0
+    ],
+    "glucose": [
+      40.0,
+      394.0
+    ]
+  },
+  "feature_medians": {
+    "male": 0.0,
+    "age": 49.0,
+    "education": 2.0,
+    "currentSmoker": 0.0,
+    "cigsPerDay": 0.0,
+    "BPMeds": 0.0,
+    "prevalentStroke": 0.0,
+    "prevalentHyp": 0.0,
+    "diabetes": 0.0,
+    "totChol": 234.0,
+    "sysBP": 128.0,
+    "diaBP": 82.0,
+    "BMI": 25.38,
+    "heartRate": 75.0,
+    "glucose": 78.0
+  }
+}

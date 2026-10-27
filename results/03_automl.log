@@ -1,0 +1,196 @@
+Budget per tool: 240s
+FLAML {'best_estimator': 'extra_tree', 'best_config': {'n_estimators': 125, 'max_features': np.float64(0.6315063933561254), 'max_leaves': 64, 'criterion': np.str_('gini')}, 'best_cv_auc': 0.7284813388208808, 'fit_seconds': 241.38889953500006, 'n_improving_configs_logged': 12, 'roc_auc': 0.6876314002005369, 'pr_auc': 0.2844838750997104, 'f1': 0.04411764705882353, 'precision': 0.42857142857142855, 'recall': 0.023255813953488372, 'accuracy': 0.8466981132075472, 'brier': 0.12175658677140455, 'threshold': 0.5}
+            model    cv_auc  improving_configs_logged
+3      extra_tree  0.728481                       3.0
+6        catboost  0.723029                       3.0
+0            lgbm  0.718838                       5.0
+2         xgboost  0.717406                       NaN
+1              rf  0.716107                       NaN
+4  xgb_limitdepth  0.715134                       NaN
+5             sgd  0.679136                       NaN
+7            lrl1  0.614448                       NaN
+	Failed to import torch or check CUDA availability!Please ensure you have the correct version of PyTorch installed by running `pip install -U torch`
+	Failed to import torch or check CUDA availability!Please ensure you have the correct version of PyTorch installed by running `pip install -U torch`
+	Failed to import torch or check CUDA availability!Please ensure you have the correct version of PyTorch installed by running `pip install -U torch`
+	Failed to import torch or check CUDA availability!Please ensure you have the correct version of PyTorch installed by running `pip install -U torch`
+	Failed to import torch or check CUDA availability!Please ensure you have the correct version of PyTorch installed by running `pip install -U torch`
+	Failed to import torch or check CUDA availability!Please ensure you have the correct version of PyTorch installed by running `pip install -U torch`
+	Failed to import torch or check CUDA availability!Please ensure you have the correct version of PyTorch installed by running `pip install -U torch`
+	Failed to import torch or check CUDA availability!Please ensure you have the correct version of PyTorch installed by running `pip install -U torch`
+	Failed to import torch or check CUDA availability!Please ensure you have the correct version of PyTorch installed by running `pip install -U torch`
+	Failed to import torch or check CUDA availability!Please ensure you have the correct version of PyTorch installed by running `pip install -U torch`
+	Warning: Exception caused NeuralNetFastAI_BAG_L1 to fail during training (ImportError)... Skipping this model.
+		Import fastai failed. A quick tip is to install via `pip install autogluon.tabular[fastai]==1.6.3`. 
+	Failed to import torch or check CUDA availability!Please ensure you have the correct version of PyTorch installed by running `pip install -U torch`
+	Warning: Exception caused XGBoost_BAG_L1 to fail during training... Skipping this model.
+		`_estimator_type` undefined.  Please use appropriate mixin to define estimator type.
+	Failed to import torch or check CUDA availability!Please ensure you have the correct version of PyTorch installed by running `pip install -U torch`
+	Warning: Exception caused NeuralNetTorch_BAG_L1 to fail during training (ImportError)... Skipping this model.
+		Unable to import dependency torch
+A quick tip is to install via `pip install torch`.
+The minimum torch version is currently 2.10.
+	Failed to import torch or check CUDA availability!Please ensure you have the correct version of PyTorch installed by running `pip install -U torch`
+	Failed to import torch or check CUDA availability!Please ensure you have the correct version of PyTorch installed by running `pip install -U torch`
+	Failed to import torch or check CUDA availability!Please ensure you have the correct version of PyTorch installed by running `pip install -U torch`
+	Warning: Exception caused NeuralNetTorch_r79_BAG_L1 to fail during training (ImportError)... Skipping this model.
+		Unable to import dependency torch
+A quick tip is to install via `pip install torch`.
+The minimum torch version is currently 2.10.
+	Failed to import torch or check CUDA availability!Please ensure you have the correct version of PyTorch installed by running `pip install -U torch`
+	Failed to import torch or check CUDA availability!Please ensure you have the correct version of PyTorch installed by running `pip install -U torch`
+	Warning: Exception caused NeuralNetFastAI_r191_BAG_L1 to fail during training (ImportError)... Skipping this model.
+		Import fastai failed. A quick tip is to install via `pip install autogluon.tabular[fastai]==1.6.3`. 
+	Failed to import torch or check CUDA availability!Please ensure you have the correct version of PyTorch installed by running `pip install -U torch`
+	Failed to import torch or check CUDA availability!Please ensure you have the correct version of PyTorch installed by running `pip install -U torch`
+	Failed to import torch or check CUDA availability!Please ensure you have the correct version of PyTorch installed by running `pip install -U torch`
+	Failed to import torch or check CUDA availability!Please ensure you have the correct version of PyTorch installed by running `pip install -U torch`
+	Failed to import torch or check CUDA availability!Please ensure you have the correct version of PyTorch installed by running `pip install -U torch`
+	Failed to import torch or check CUDA availability!Please ensure you have the correct version of PyTorch installed by running `pip install -U torch`
+	Failed to import torch or check CUDA availability!Please ensure you have the correct version of PyTorch installed by running `pip install -U torch`
+	Failed to import torch or check CUDA availability!Please ensure you have the correct version of PyTorch installed by running `pip install -U torch`
+	Failed to import torch or check CUDA availability!Please ensure you have the correct version of PyTorch installed by running `pip install -U torch`
+	Failed to import torch or check CUDA availability!Please ensure you have the correct version of PyTorch installed by running `pip install -U torch`
+	Failed to import torch or check CUDA availability!Please ensure you have the correct version of PyTorch installed by running `pip install -U torch`
+	Failed to import torch or check CUDA availability!Please ensure you have the correct version of PyTorch installed by running `pip install -U torch`
+	Failed to import torch or check CUDA availability!Please ensure you have the correct version of PyTorch installed by running `pip install -U torch`
+	Failed to import torch or check CUDA availability!Please ensure you have the correct version of PyTorch installed by running `pip install -U torch`
+	Failed to import torch or check CUDA availability!Please ensure you have the correct version of PyTorch installed by running `pip install -U torch`
+	Failed to import torch or check CUDA availability!Please ensure you have the correct version of PyTorch installed by running `pip install -U torch`
+	Failed to import torch or check CUDA availability!Please ensure you have the correct version of PyTorch installed by running `pip install -U torch`
+	Failed to import torch or check CUDA availability!Please ensure you have the correct version of PyTorch installed by running `pip install -U torch`
+	Warning: Exception caused NeuralNetFastAI_BAG_L1 to fail during training (ImportError)... Skipping this model.
+		Import fastai failed. A quick tip is to install via `pip install autogluon.tabular[fastai]==1.6.3`. 
+	Failed to import torch or check CUDA availability!Please ensure you have the correct version of PyTorch installed by running `pip install -U torch`
+	Warning: Exception caused XGBoost_BAG_L1 to fail during training... Skipping this model.
+		`_estimator_type` undefined.  Please use appropriate mixin to define estimator type.
+	Failed to import torch or check CUDA availability!Please ensure you have the correct version of PyTorch installed by running `pip install -U torch`
+	Warning: Exception caused NeuralNetTorch_BAG_L1 to fail during training (ImportError)... Skipping this model.
+		Unable to import dependency torch
+A quick tip is to install via `pip install torch`.
+The minimum torch version is currently 2.10.
+	Failed to import torch or check CUDA availability!Please ensure you have the correct version of PyTorch installed by running `pip install -U torch`
+	Failed to import torch or check CUDA availability!Please ensure you have the correct version of PyTorch installed by running `pip install -U torch`
+	Failed to import torch or check CUDA availability!Please ensure you have the correct version of PyTorch installed by running `pip install -U torch`
+	Warning: Exception caused NeuralNetTorch_r79_BAG_L1 to fail during training (ImportError)... Skipping this model.
+		Unable to import dependency torch
+A quick tip is to install via `pip install torch`.
+The minimum torch version is currently 2.10.
+	Failed to import torch or check CUDA availability!Please ensure you have the correct version of PyTorch installed by running `pip install -U torch`
+	Failed to import torch or check CUDA availability!Please ensure you have the correct version of PyTorch installed by running `pip install -U torch`
+	Warning: Exception caused NeuralNetFastAI_r191_BAG_L1 to fail during training (ImportError)... Skipping this model.
+		Import fastai failed. A quick tip is to install via `pip install autogluon.tabular[fastai]==1.6.3`. 
+	Failed to import torch or check CUDA availability!Please ensure you have the correct version of PyTorch installed by running `pip install -U torch`
+	Failed to import torch or check CUDA availability!Please ensure you have the correct version of PyTorch installed by running `pip install -U torch`
+	Failed to import torch or check CUDA availability!Please ensure you have the correct version of PyTorch installed by running `pip install -U torch`
+	Warning: Exception caused NeuralNetTorch_r22_BAG_L1 to fail during training (ImportError)... Skipping this model.
+		Unable to import dependency torch
+A quick tip is to install via `pip install torch`.
+The minimum torch version is currently 2.10.
+	Failed to import torch or check CUDA availability!Please ensure you have the correct version of PyTorch installed by running `pip install -U torch`
+	Warning: Exception caused XGBoost_r33_BAG_L1 to fail during training... Skipping this model.
+		`_estimator_type` undefined.  Please use appropriate mixin to define estimator type.
+	Failed to import torch or check CUDA availability!Please ensure you have the correct version of PyTorch installed by running `pip install -U torch`
+	Failed to import torch or check CUDA availability!Please ensure you have the correct version of PyTorch installed by running `pip install -U torch`
+	Failed to import torch or check CUDA availability!Please ensure you have the correct version of PyTorch installed by running `pip install -U torch`
+	Warning: Exception caused NeuralNetFastAI_r102_BAG_L1 to fail during training (ImportError)... Skipping this model.
+		Import fastai failed. A quick tip is to install via `pip install autogluon.tabular[fastai]==1.6.3`. 
+	Failed to import torch or check CUDA availability!Please ensure you have the correct version of PyTorch installed by running `pip install -U torch`
+	Failed to import torch or check CUDA availability!Please ensure you have the correct version of PyTorch installed by running `pip install -U torch`
+	Failed to import torch or check CUDA availability!Please ensure you have the correct version of PyTorch installed by running `pip install -U torch`
+	Failed to import torch or check CUDA availability!Please ensure you have the correct version of PyTorch installed by running `pip install -U torch`
+	Warning: Exception caused NeuralNetFastAI_r145_BAG_L1 to fail during training (ImportError)... Skipping this model.
+		Import fastai failed. A quick tip is to install via `pip install autogluon.tabular[fastai]==1.6.3`. 
+	Failed to import torch or check CUDA availability!Please ensure you have the correct version of PyTorch installed by running `pip install -U torch`
+	Warning: Exception caused XGBoost_r89_BAG_L1 to fail during training... Skipping this model.
+		`_estimator_type` undefined.  Please use appropriate mixin to define estimator type.
+	Failed to import torch or check CUDA availability!Please ensure you have the correct version of PyTorch installed by running `pip install -U torch`
+	Warning: Exception caused NeuralNetTorch_r30_BAG_L1 to fail during training (ImportError)... Skipping this model.
+		Unable to import dependency torch
+A quick tip is to install via `pip install torch`.
+The minimum torch version is currently 2.10.
+	Failed to import torch or check CUDA availability!Please ensure you have the correct version of PyTorch installed by running `pip install -U torch`
+	Failed to import torch or check CUDA availability!Please ensure you have the correct version of PyTorch installed by running `pip install -U torch`
+	Warning: Exception caused NeuralNetTorch_r86_BAG_L1 to fail during training (ImportError)... Skipping this model.
+		Unable to import dependency torch
+A quick tip is to install via `pip install torch`.
+The minimum torch version is currently 2.10.
+	Failed to import torch or check CUDA availability!Please ensure you have the correct version of PyTorch installed by running `pip install -U torch`
+	Failed to import torch or check CUDA availability!Please ensure you have the correct version of PyTorch installed by running `pip install -U torch`
+	Warning: Exception caused NeuralNetFastAI_r11_BAG_L1 to fail during training (ImportError)... Skipping this model.
+		Import fastai failed. A quick tip is to install via `pip install autogluon.tabular[fastai]==1.6.3`. 
+	Failed to import torch or check CUDA availability!Please ensure you have the correct version of PyTorch installed by running `pip install -U torch`
+	Warning: Exception caused XGBoost_r194_BAG_L1 to fail during training... Skipping this model.
+		`_estimator_type` undefined.  Please use appropriate mixin to define estimator type.
+	Failed to import torch or check CUDA availability!Please ensure you have the correct version of PyTorch installed by running `pip install -U torch`
+	Failed to import torch or check CUDA availability!Please ensure you have the correct version of PyTorch installed by running `pip install -U torch`
+	Failed to import torch or check CUDA availability!Please ensure you have the correct version of PyTorch installed by running `pip install -U torch`
+	Warning: Exception caused NeuralNetFastAI_r103_BAG_L1 to fail during training (ImportError)... Skipping this model.
+		Import fastai failed. A quick tip is to install via `pip install autogluon.tabular[fastai]==1.6.3`. 
+	Failed to import torch or check CUDA availability!Please ensure you have the correct version of PyTorch installed by running `pip install -U torch`
+	Warning: Exception caused NeuralNetTorch_r14_BAG_L1 to fail during training (ImportError)... Skipping this model.
+		Unable to import dependency torch
+A quick tip is to install via `pip install torch`.
+The minimum torch version is currently 2.10.
+	Failed to import torch or check CUDA availability!Please ensure you have the correct version of PyTorch installed by running `pip install -U torch`
+	Failed to import torch or check CUDA availability!Please ensure you have the correct version of PyTorch installed by running `pip install -U torch`
+	Warning: Exception caused NeuralNetFastAI_r143_BAG_L1 to fail during training (ImportError)... Skipping this model.
+		Import fastai failed. A quick tip is to install via `pip install autogluon.tabular[fastai]==1.6.3`. 
+	Failed to import torch or check CUDA availability!Please ensure you have the correct version of PyTorch installed by running `pip install -U torch`
+	Failed to import torch or check CUDA availability!Please ensure you have the correct version of PyTorch installed by running `pip install -U torch`
+	Warning: Exception caused NeuralNetFastAI_r156_BAG_L1 to fail during training (ImportError)... Skipping this model.
+		Import fastai failed. A quick tip is to install via `pip install autogluon.tabular[fastai]==1.6.3`. 
+	Failed to import torch or check CUDA availability!Please ensure you have the correct version of PyTorch installed by running `pip install -U torch`
+	Failed to import torch or check CUDA availability!Please ensure you have the correct version of PyTorch installed by running `pip install -U torch`
+	Failed to import torch or check CUDA availability!Please ensure you have the correct version of PyTorch installed by running `pip install -U torch`
+	Failed to import torch or check CUDA availability!Please ensure you have the correct version of PyTorch installed by running `pip install -U torch`
+	Warning: Exception caused NeuralNetFastAI_r95_BAG_L1 to fail during training (ImportError)... Skipping this model.
+		Import fastai failed. A quick tip is to install via `pip install autogluon.tabular[fastai]==1.6.3`. 
+	Failed to import torch or check CUDA availability!Please ensure you have the correct version of PyTorch installed by running `pip install -U torch`
+	Warning: Exception caused NeuralNetTorch_r41_BAG_L1 to fail during training (ImportError)... Skipping this model.
+		Unable to import dependency torch
+A quick tip is to install via `pip install torch`.
+The minimum torch version is currently 2.10.
+	Failed to import torch or check CUDA availability!Please ensure you have the correct version of PyTorch installed by running `pip install -U torch`
+	Warning: Exception caused XGBoost_r98_BAG_L1 to fail during training... Skipping this model.
+		`_estimator_type` undefined.  Please use appropriate mixin to define estimator type.
+	Failed to import torch or check CUDA availability!Please ensure you have the correct version of PyTorch installed by running `pip install -U torch`
+	Failed to import torch or check CUDA availability!Please ensure you have the correct version of PyTorch installed by running `pip install -U torch`
+	Warning: Exception caused NeuralNetTorch_r158_BAG_L1 to fail during training (ImportError)... Skipping this model.
+		Unable to import dependency torch
+A quick tip is to install via `pip install torch`.
+The minimum torch version is currently 2.10.
+	Failed to import torch or check CUDA availability!Please ensure you have the correct version of PyTorch installed by running `pip install -U torch`
+	Failed to import torch or check CUDA availability!Please ensure you have the correct version of PyTorch installed by running `pip install -U torch`
+AutoGluon {'best_model': 'WeightedEnsemble_L2', 'n_models': 29, 'fit_seconds': 240.40438451299997, 'features_used': ['male', 'age', 'education', 'currentSmoker', 'cigsPerDay', 'BPMeds', 'prevalentStroke', 'prevalentHyp', 'diabetes', 'totChol', 'sysBP', 'diaBP', 'BMI', 'heartRate', 'glucose'], 'problem_type': 'binary', 'feature_generator': 'AutoMLPipelineFeatureGenerator', 'roc_auc': 0.67806277021272, 'pr_auc': 0.28136773604421694, 'f1': 0.058394160583941604, 'precision': 0.5, 'recall': 0.031007751937984496, 'accuracy': 0.847877358490566, 'brier': 0.12259068528529642, 'threshold': 0.5}
+                       model  score_test  ...  pred_time_val  stack_level
+0       CatBoost_r177_BAG_L1    0.688618  ...       0.008483            1
+1        CatBoost_r69_BAG_L1    0.688041  ...       0.009587            1
+2       CatBoost_r137_BAG_L1    0.687206  ...       0.010080            1
+3            CatBoost_BAG_L1    0.684769  ...       0.008453            1
+4        CatBoost_r70_BAG_L1    0.683949  ...       0.016081            1
+5        CatBoost_r50_BAG_L1    0.683098  ...       0.010828            1
+6        LightGBM_r96_BAG_L1    0.682483  ...       0.051544            1
+7        CatBoost_r13_BAG_L1    0.681912  ...       0.011936            1
+8        CatBoost_r86_BAG_L1    0.681459  ...       0.011517            1
+9       CatBoost_r167_BAG_L1    0.678472  ...       0.008641            1
+10       WeightedEnsemble_L2    0.678063  ...       0.186559            2
+11         LightGBMXT_BAG_L1    0.676165  ...       0.015385            1
+12        CatBoost_r9_BAG_L1    0.670645  ...       0.015673            1
+13      LightGBM_r196_BAG_L1    0.667615  ...       0.183314            1
+14    ExtraTrees_r172_BAG_L1    0.667195  ...       0.195136            1
+15       LightGBM_r15_BAG_L1    0.665923  ...       0.018821            1
+16     ExtraTreesEntr_BAG_L1    0.664252  ...       0.147163            1
+17      LightGBM_r188_BAG_L1    0.661513  ...       0.022610            1
+18      LightGBM_r130_BAG_L1    0.658214  ...       0.014254            1
+19      LightGBM_r131_BAG_L1    0.655120  ...       0.026741            1
+20           LightGBM_BAG_L1    0.654958  ...       0.010928            1
+21     ExtraTreesGini_BAG_L1    0.652974  ...       0.142073            1
+22   RandomForestGini_BAG_L1    0.652953  ...       0.147053            1
+23   RandomForestEntr_BAG_L1    0.650225  ...       0.173822            1
+24     ExtraTrees_r42_BAG_L1    0.643961  ...       0.151548            1
+25      LightGBMLarge_BAG_L1    0.642850  ...       0.011223            1
+26  RandomForest_r195_BAG_L1    0.641551  ...       0.153936            1
+27   RandomForest_r39_BAG_L1    0.639357  ...       0.135126            1
+28      LightGBM_r161_BAG_L1    0.635238  ...       0.043660            1
+
+[29 rows x 6 columns]

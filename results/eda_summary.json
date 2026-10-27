@@ -1,0 +1,15 @@
+{
+  "rows": 4240,
+  "columns": 16,
+  "positive_rate": 0.15188679245283018,
+  "missing": {
+    "education": 105,
+    "cigsPerDay": 29,
+    "BPMeds": 53,
+    "totChol": 50,
+    "BMI": 19,
+    "heartRate": 1,
+    "glucose": 388
+  },
+  "duplicates": 0
+}
